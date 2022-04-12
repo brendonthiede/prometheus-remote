@@ -14,7 +14,5 @@ remote_write:
 Installation via Helm could look like:
 
 ```bash
-helm upgrade --install prometheus ./charts/prometheus-remote -n prom --create-namespace
+helm upgrade --install prometheus https://github.com/brendonthiede/prometheus-remote/releases/download/prometheus-remote-0.1.0/prometheus-remote-0.1.0.tgz -n prom --create-namespace
 ```
-
-Just triggering a release.
