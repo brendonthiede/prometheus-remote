@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  prometheus-remote:
+  - apiVersion: v1
+    appVersion: 2.34.0
+    created: "2022-04-12T21:00:56.016Z"
+    description: Simple Prometheus installer for use as a remote receiver
+    digest: cfa18cc2e33d3c41717a755423e74ade86bb2777b3c8ada5f58d410b0113ec4f
+    maintainers:
+    - email: brendon.thiede@gmail.com
+      name: brendonthiede
+    name: prometheus-remote
+    urls:
+    - https://github.com/brendonthiede/prometheus-remote/releases/download/prometheus-remote-0.1.0/prometheus-remote-0.1.0.tgz
+    version: 0.1.0
