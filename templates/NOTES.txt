@@ -1,0 +1,10 @@
+Configure writing to this prometheus from another by setting:
+
+    remote_read:
+       - url: http://{{ include "prometheus-remote.fullname" . }}.{{ .Release.Namespace }}.svc:{{ .Values.service.port }}/read
+    remote_write:
+       - url: http://{{ include "prometheus-remote.fullname" . }}.{{ .Release.Namespace }}.svc:{{ .Values.service.port }}/write
+
+You can then connect to this, the remote Prometheus, by using port forwarding:
+
+kubectl port-forward -n {{ .Release.Namespace }} svc/{{ include "prometheus-remote.fullname" . }} {{ .Values.service.port }}:{{ .Values.service.port }}
