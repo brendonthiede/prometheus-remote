@@ -3,6 +3,16 @@ entries:
   prometheus-remote:
   - apiVersion: v2
     appVersion: 2.34.0
+    created: "2022-04-12T21:19:51.61848222Z"
+    description: Prometheus instance as remote receiver
+    digest: 422879102b53e90cc857b8d67be8f01f0f02c3f5417260e28722a9e48c504ae7
+    name: prometheus-remote
+    type: application
+    urls:
+    - https://github.com/brendonthiede/prometheus-remote/releases/download/prometheus-remote-0.1.3/prometheus-remote-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 2.34.0
     created: "2022-04-12T21:16:45.732245003Z"
     description: Prometheus instance as remote receiver
     digest: d216ffa5f1dc730aefafad8ba716c2bf034106377c5ddaacafc44c47837f1e7b
@@ -33,4 +43,4 @@ entries:
     urls:
     - https://github.com/brendonthiede/prometheus-remote/releases/download/prometheus-remote-0.1.0/prometheus-remote-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-12T21:16:45.732268304Z"
+generated: "2022-04-12T21:19:51.618498921Z"
