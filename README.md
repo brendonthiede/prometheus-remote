@@ -16,3 +16,5 @@ Installation via Helm could look like:
 ```bash
 helm upgrade --install prometheus ./charts/prometheus-remote -n prom --create-namespace
 ```
+
+Just triggering a release.
