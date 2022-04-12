@@ -1,6 +1,16 @@
 apiVersion: v1
 entries:
   prometheus-remote:
+  - apiVersion: v2
+    appVersion: 2.34.0
+    created: "2022-04-12T21:13:37.645089176Z"
+    description: A Helm chart for Kubernetes
+    digest: f7054bcf66846c0f84b691ca9110b665ba50c32882fef38d9b33d47e49d2d90a
+    name: prometheus-remote
+    type: application
+    urls:
+    - https://github.com/brendonthiede/prometheus-remote/releases/download/prometheus-remote-0.1.1/prometheus-remote-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v1
     appVersion: 2.34.0
     created: "2022-04-12T21:00:56.016Z"
@@ -13,3 +23,4 @@ entries:
     urls:
     - https://github.com/brendonthiede/prometheus-remote/releases/download/prometheus-remote-0.1.0/prometheus-remote-0.1.0.tgz
     version: 0.1.0
+generated: "2022-04-12T21:13:37.645109276Z"
