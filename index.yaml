@@ -3,6 +3,16 @@ entries:
   prometheus-remote:
   - apiVersion: v2
     appVersion: 2.34.0
+    created: "2022-04-12T21:16:45.732245003Z"
+    description: Prometheus instance as remote receiver
+    digest: d216ffa5f1dc730aefafad8ba716c2bf034106377c5ddaacafc44c47837f1e7b
+    name: prometheus-remote
+    type: application
+    urls:
+    - https://github.com/brendonthiede/prometheus-remote/releases/download/prometheus-remote-0.1.2/prometheus-remote-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 2.34.0
     created: "2022-04-12T21:13:37.645089176Z"
     description: A Helm chart for Kubernetes
     digest: f7054bcf66846c0f84b691ca9110b665ba50c32882fef38d9b33d47e49d2d90a
@@ -23,4 +33,4 @@ entries:
     urls:
     - https://github.com/brendonthiede/prometheus-remote/releases/download/prometheus-remote-0.1.0/prometheus-remote-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-12T21:13:37.645109276Z"
+generated: "2022-04-12T21:16:45.732268304Z"
